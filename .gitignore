@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment / local configuration
+.env
+.env.*
+!.env.example
+
+# Android local configuration / signing secrets
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+android/.parkshare-keystore/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Legacy Android signing key
+android/app/rooftop-upload.jks
